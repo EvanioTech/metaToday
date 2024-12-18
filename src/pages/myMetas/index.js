@@ -191,12 +191,15 @@ const styles = StyleSheet.create({
   },
   btnView: {
     flexDirection: "row",
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   doneButton: {
     backgroundColor: "blue",
     padding: 8,
     borderRadius: 5,
     marginRight: 10,
+    marginBottom: 4
   },
   deleteButton: {
     backgroundColor: "red",
